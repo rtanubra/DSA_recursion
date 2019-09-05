@@ -93,9 +93,9 @@ const mazeRunner = function(maze){
         i++
     }
     mazeRun([...maze],[0,0])
-    console.log(completed)
-    //return a solution
-    return completed[0]
+    //console.log(completed)
+    //return all solution
+    return completed
 }
 
 console.log(mazeRunner(mySmallMaze))
